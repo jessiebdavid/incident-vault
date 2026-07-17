@@ -1,5 +1,15 @@
+import Navbar from "../../components/layout/Navbar";
+
 function Landing() {
-  return <h1>Landing Page</h1>;
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-slate-100 via-white to-blue-100">
+
+      <Navbar />
+
+      {/* Hero Section */}
+
+    </div>
+  );
 }
 
 export default Landing;
